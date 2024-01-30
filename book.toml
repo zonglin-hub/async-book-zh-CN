@@ -1,0 +1,5 @@
+[book]
+title = "Asynchronous Programming in Rust"
+authors = ["Taylor Cramer"]
+multilingual = false
+src = "src"
