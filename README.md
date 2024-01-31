@@ -8,7 +8,7 @@ The async book is built with [`mdbook`], you can install it using cargo.
 
 ```sh
 cargo install mdbook
-cargo install mdbook-linkcheck
+# cargo install mdbook-linkcheck
 ```
 
 [`mdbook`]: https://github.com/rust-lang/mdBook
@@ -29,3 +29,7 @@ server to serve the book.
 ```sh
 mdbook serve
 ```
+
+---
+
+Note: 由于 mdbook-linkcheck 网络连接异常，剔除 example 模块。
